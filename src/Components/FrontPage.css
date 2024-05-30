@@ -1,0 +1,557 @@
+.navbar-1 {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .me-auto{
+    margin-left: 12%;
+}
+.mr-2{
+    margin-left: -250%;
+}
+.me-2 {
+    color: red !important;
+    background-color: white !important;
+    border-color: red !important;
+  }
+  
+  .me-2:hover {
+    color: white !important;
+    background-color: red !important;
+    border-color: red !important;
+  }
+  .req-button:hover {
+    background-color: rgb(38, 38, 65) !important;
+    color: white !important;
+  }
+  .nav-buttons{
+    margin-right: 10%;
+  }
+  .logo{
+    width: 300px;
+    /* margin-left: 10%; */
+    padding: 32px;
+    
+  }
+  .third-container{
+    height: 90px;
+    align-items: center;
+    margin-top: 10px;
+    background: linear-gradient(to bottom right, white 25%, rgb(224, 224, 240) 75%);
+    z-index: -1;
+  }
+  .sub-container {
+    width: 80%;
+    height: 105%;
+    margin: 0 auto; /* Center the sub-container horizontally */
+    display: flex;
+    justify-content: space-between; /* Align elements horizontally */
+    align-items: center;
+    /* padding: 0 20px;  */
+}
+
+.contact-info {
+    display: flex;
+     justify-content: flex-end;
+     width: 38%;/* Ensure the contact-info div takes full width */
+}
+
+/* .address, .phoneNo {
+    padding: 10px; 
+} */
+
+/* .address h3, .phoneNo h3 {
+    margin-top: 0;
+    margin-bottom: 5px; 
+} */
+
+.address p, .phoneNo p {
+    margin-bottom: 0; /* Remove margin for consistency */
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.address {
+    margin-right: 10px; 
+    padding: 14px;
+}
+
+
+.address p, .phoneNo p {
+    margin-bottom: 0; /* Remove margin for consistency */
+}
+.contact-info ul p {
+    margin: 0; /* Remove margin for consistency */
+}
+.contact-info ul h3 {
+    margin-top: 0; /* Remove margin for consistency */
+    margin-bottom: 5px; 
+    
+}
+.contact-info ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+.contact-info h3{
+    font-size: 20px;
+}
+.dropdown-navbar .nav-dropdown {
+    height: 35px;
+    background-color: rgb(74, 74, 136);
+  }
+  
+  .dropdown-navbar .nav-dropdown .nav-link {
+    color: white !important;
+  }
+  .form-dropdown{
+    color: rgb(195, 192, 192);
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+  }
+ .carousel-inner{
+    height: 500px;
+ }
+ .forth-container{
+    background-color: rgb(206, 229, 237);
+    height: 80px;
+    text-align: center;
+    padding: 15px;
+    
+ }
+ .forth-container h5{
+    font-weight: bolder;
+    color: rgb(45, 45, 99);
+ }
+ .social-text {
+  display: inline-block; /* Ensure text and icons are on the same line */
+  margin-right: 10px; /* Add some margin between text and icons */
+}
+
+.social-link {
+  margin-left: 5px; /* Adjust margin as needed */
+  display: inline-block;
+  text-decoration: none; /* Remove default underline */
+  color: inherit; 
+  background-color: white;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.social-link:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+.twitter {
+  margin-left: 5px; /* Adjust margin as needed */
+  display: inline-block;
+  text-decoration: none; /* Remove default underline */
+  color: rgb(59, 99, 114); 
+  background-color: white;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.youtube {
+  margin-left: 5px; /* Adjust margin as needed */
+  display: inline-block;
+  text-decoration: none; /* Remove default underline */
+  color: red; 
+  background-color: white;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.forth-container h5{
+  margin-top: 10px;
+}
+.social-link,
+.twitter,
+.youtube {
+  display: inline-flex; /* Use flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+.fifth-container{
+  margin-top: 8%;
+}
+.fifth-subcontainer{
+  text-align: center;
+  color: rgb(45, 45, 99);
+  font-weight: bold;
+}
+.fifth-subcontainer h2{
+  font-weight: 700;
+  position: relative; /* Ensure the pseudo-element is positioned relative to the h2 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+.fifth-subcontainer h2::after {
+  content: '';
+  width: 5%; /* Adjust the width of the underline as needed */
+  height: 0.5px; /* Adjust the height of the underline as needed */
+  background-color: rgb(45, 45, 99); /* Adjust the color as needed */
+  margin-top: 25px; /* Adjust the distance between the h2 text and the underline */
+}
+.fifth-left-container {
+  flex: 1;
+  padding: 20px; 
+  display: flex;
+}
+
+.fifth-right-container {
+  flex: 1;
+  padding: 20px; 
+  background-color: red;
+  display: flex;
+}
+
+.card {
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(173, 36, 36, 0.1); 
+  width: 361px;
+}
+.fifth-sub-container{
+  width: 80%;
+    margin: 0 auto; /* Center the sub-container horizontally */
+    display: flex;
+    justify-content: space-between; /* Align elements horizontally */
+    align-items: center;
+  /* background-color: rgb(23, 181, 136); */
+}
+.card h5{
+  font-weight: 700;
+  color: rgb(45, 45, 99);
+  padding: 10px;
+}
+.card .underline {
+  width: 100%;
+  height: 0.5px;
+  background-color: rgb(187, 196, 215);
+  margin: 0 auto 20px auto; /* Center and add space below */
+}
+.button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-button {
+  flex: 1;
+  margin: 5px; /* Adjust the margin between buttons */
+  padding: 18px;
+  background-color: #007bff;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: start;
+  font-weight: bold;
+  font-size: large;
+  
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+.card-button .arrow-button {
+  margin-left: auto; /* Push the arrow to the end */
+}
+.w-100{
+  gap: 100px;
+}
+.card-title{
+  font-weight: bolder;
+}
+.card-title:hover {
+  color: rgb(45, 45, 99);
+}
+.card-footer a{
+  font-size: 18px;
+  text-decoration: none;
+}
+.third-card{
+  margin-left: 33%;
+  margin-top: -118px;
+}
+.mt-4{
+  width: 92%;
+}
+.mt-4 h4{
+  color:rgb(45, 45, 99) ;
+  font-weight: bold;
+}
+.card-gap{
+  gap: 10px;
+}
+.sixth-container{
+  margin-top: 70px;
+  align-items: center;
+}
+.sixth-sub-container{
+  text-align: center;
+  color: rgb(240, 240, 245);
+  font-weight: bold;
+  margin-left: 35%;
+  width: 65%;
+  margin-top: -29%;
+}
+.sixth-sub-container h3{
+  margin: 0 auto; /* Center the sub-container horizontally */
+  justify-content: space-between; /* Align elements horizontally */
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  left: 50%;
+  
+  
+}
+.underline-title {
+  position: relative;
+  text-align: center;
+}
+
+.underline-title::after {
+  content: '';
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 50px; /* Adjust as needed */
+  height: 1px;
+  background-color: #f8f6f6; 
+  
+}
+.container-buttons{
+  margin-bottom: -435px;
+  margin-left: -36%;
+
+}
+.custom-btn {
+  width: 80%; 
+  padding: 16px;
+  background-color: transparent;
+  font-weight: 800;
+}
+.custom-btn:last-child {
+  margin-right: 0; /* Remove margin-right for the last button */
+}
+.mt-3{
+  width: 173%;
+    margin-left: -21%;
+    margin-bottom: 85%;
+}
+.container-text p{
+  text-align: center;
+  margin-top: 75%;
+    margin-left: -103%;
+    width: 136%;
+    color: white;
+    
+}
+.seventh-container{
+  border-color: transparent;
+  padding: 40px;
+  width: 23%;
+  display: flex;
+  margin-left: 3%;
+}
+.card-width{
+  width: 100%;
+}
+.main-card-container{
+  width: 188%;
+  margin: 0 auto;
+}
+.card-title{
+  font-size: 21px;
+  font-weight: bolder;
+}
+.card-text-small{
+  color: gray;
+  font-size: 13px;
+  font-weight: 700;
+}
+.img-fluid{
+  height: 180px;
+
+}
+.eigth-container {
+  width: 75%;
+  justify-content: space-between; /* Align items to the start and end of the container */
+  align-items: center; 
+  margin: 0 auto; /* Center the container */
+  background-color: #f0f8ff; /* Light blue color */
+  padding: 40px; /* Add padding as needed */
+  height: 400px;
+}
+.text-container {
+  width: 50%;
+  margin-top: 8%; 
+  color:rgb(45, 45, 99) ;
+}
+.text-container h2 {
+  margin-top: 8%; 
+  color:rgb(45, 45, 99) ;
+  font-weight: 800;
+  font-size: 35px;
+}
+.text-container p {
+  margin-top: 8%; 
+  color:rgb(45, 45, 99) ;
+  font-size: 20px;
+}
+.button{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(31, 170, 31);
+  border-radius: none;
+  border-color: rgb(31, 170, 31);
+  width: 139px;
+}
+.image-container img{
+margin-left: 58%;
+width: 475px;
+margin-top: -32%;
+}
+.eigth-container{
+  height: 400px;
+}
+.ninth-container{
+  width: 100%;
+  height: 100px;
+  background-color:rgb(45, 45, 99) ;
+ 
+}
+.first-div {
+  flex: 1; /* Make each div take up equal space */
+  margin: 0 10px; /* Add margin between divs */
+  padding: -17px; /* Add padding inside divs */
+  color: rgb(245, 244, 244); /* Text color for better visibility */
+  margin-top: -9px;
+  margin-left: 200px;
+}
+.first-div .icon {
+  margin-bottom: -79px;
+  margin-left: -62px;
+  font-size: 46px;
+}
+.sub-ninthcontainer{
+   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  width: 87%;
+  margin-left: 56px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8; /* Example background color */
+}
+
+.footer-section {
+  flex: 1;
+  margin: 5px;
+  min-width: 200px; 
+  padding: 10px;
+  margin-left: 116px;
+}
+
+.medicare {
+  flex: 2; /* Medicare section takes more space */
+}
+
+h6, h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+.footer-section  h5{
+   color: rgb(45, 45, 99);
+   font-weight: bolder;
+}
+.footer-section h6{
+  color:rgb(45, 45, 99) ;
+  font-weight: 700;
+}
+.footer-section-centers{
+  margin-left: -147px;
+}
+.custom-modal  {
+  background-color: transparent;
+  border: none;
+  width: 50%;
+  margin-left: 25%;
+  top: 10px;
+}
+
+.custom-modal .modal-dialog {
+  margin: 0;
+  max-width: unset;
+}
+.modal-content{
+  background-color: white;
+}
+.modal-title{
+  color:rgb(45, 45, 99) ;
+  font-weight: 700;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  align-items: flex-start;
+}
+.carousel-caption h2{
+  color:rgb(45, 45, 99) ;
+  font-weight: 800;
+}
+.carousel-caption p{
+  color:rgb(45, 45, 99) ;
+  font-weight: 500;
+}
+.carousel-button{
+  background-color:rgb(45, 45, 99) ;
+  color: white;
+  border-color: rgb(45, 45, 99) ;
+  border-radius: 5px;
+  padding: 5px;
+}
+.carousel-text {
+left: 60%;
+}
+.carousel-text2{
+  top: 40%;
+}
+.form-control{
+  color: gray;
+}
+.card-body{
+  color:rgb(45, 45, 99) ;
+}
+@media(max-width: 1281px){
+  .mr-2{
+    margin-left: -161%;
+  }
+  .sixth-sub-container{
+    width: 97%
+  }
+  .container-text p{
+    margin-top: 99%;
+  }
+  .sub-ninthcontainer{
+    width: 93%;
+    margin-left: -5px;
+  }
+}
