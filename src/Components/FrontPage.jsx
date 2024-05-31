@@ -433,7 +433,7 @@ When You Need it</h2>
             </Card>
           </Col>
           <Col className='third-card'>
-          <Card className=" mt-4">
+          <Card className=" mt-4 latest-card">
               <Card.Body className='card-gap'>
                 <Card.Title><h4>LATEST NEWS</h4></Card.Title>
                 <Card.Text>
@@ -506,7 +506,7 @@ When You Need it</h2>
                   <img src={card3} className="img-fluid" alt="card3" />
                 </div>
                 <div className="col-md-8">
-                  <div className="card-body">
+                  <div className="card-body card-bdy">
                     <h5 className="card-title">Should You Be Worried About Microplastics in Your Food?</h5>
                     <p className="card-text-small">John Doe10 Jan . 2019</p>
                     <p className="card-text">Plastic — it’s in the air, sea and probably your body. Find out what are microplastics doing to your health...</p>
@@ -523,7 +523,7 @@ When You Need it</h2>
                   <img src={card4} className="img-fluid" alt="card3" />
                 </div>
                 <div className="col-md-8">
-                  <div className="card-body">
+                  <div className="card-body card-bdy">
                     <h5 className="card-title">What to Expect During and After a Breast Biopsy</h5>
                     <p className="card-text-small">Wiliam Petro03 Feb, 2019</p>
                     <p className="card-text">We interview Dr Lim Siew Kuan, a general surgeon at Mount Elizabeth Novena Hospital, to understand what to...</p>
@@ -540,7 +540,7 @@ When You Need it</h2>
                   <img src={card5} className="img-fluid" alt="card3" />
                 </div>
                 <div className="col-md-8">
-                  <div className="card-body">
+                  <div className="card-body card-bdy">
                     <h5 className="card-title">How Heart Attack Signs Differ in Men & Women</h5>
                     <p className="card-text-small">Sultan Sentu05 Mar, 2019</p>
                     <p className="card-text">Is there ‘gender equality’ in heart attacks? The short answer is no. Here’s what you need to know...</p>
@@ -557,7 +557,7 @@ When You Need it</h2>
                   <img src={card6} className="img-fluid" alt="card3" />
                 </div>
                 <div className="col-md-8">
-                  <div className="card-body">
+                  <div className="card-body card-bdy">
                     <h5 className="card-title">Prenatal Infections and How to Avoid Them</h5>
                     <p className="card-text-small">Marry Com29 Jun, 2019</p>
                     <p className="card-text">Prenatal infections can interfere with the health of both you and your baby, so it’s important to take steps to prevent them....</p>
@@ -574,7 +574,7 @@ When You Need it</h2>
                   <img src={card7} className="img-fluid" alt="card3" />
                 </div>
                 <div className="col-md-8">
-                  <div className="card-body">
+                  <div className="card-body card-bdy">
                     <h5 className="card-title">What are the Screening Options for Heart Disease?</h5>
                     <p className="card-text-small">Illiana Daina29 Jun, 2019</p>
                     <p className="card-text">We interview Dr Lim Siew Kuan, a general surgeon at Mount Elizabeth Novena Hospital, to understand what to expect...</p>
@@ -591,7 +591,7 @@ When You Need it</h2>
                   <img src={card8} className="img-fluid" alt="card3" />
                 </div>
                 <div className="col-md-8">
-                  <div className="card-body">
+                  <div className="card-body card-bdy">
                     <h5 className="card-title">Should You Be Worried About Microplastics in Your Food?</h5>
                     <p className="card-text-small">John Doe10 Jan . 2019</p>
                     <p className="card-text">Plastic — it’s in the air, sea and probably your body. Find out what are microplastics doing to your health...</p>

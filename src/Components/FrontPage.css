@@ -1,5 +1,6 @@
 .navbar-1 {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
   }
   .me-auto{
     margin-left: 12%;
@@ -553,5 +554,55 @@ left: 60%;
   .sub-ninthcontainer{
     width: 93%;
     margin-left: -5px;
+  }
+  .image-container img{
+    margin-left: 51%;
+    width: 452px;
+    margin-top: -44%;
+  }
+}
+@media(max-width: 1025px){
+  .mr-2{
+    margin-left: -80%;
+  }
+  .card{
+    width: 297px;
+  }
+  .w-100{
+    margin-left: -65px;
+    gap: 102px;
+  }
+  .latest-card{
+    width: 642px;
+  }
+  .sixth-sub-container{
+    width: 157%;
+  }
+  .mt-3{
+    width: 289%;
+    margin-left: -76%;
+  }
+  .container-text p{
+    margin-top: 136%;
+  }
+  .seventh-container{
+    width: 37%;
+  }
+  .main-card-container{
+    width: 158%;
+  }
+  .card-bdy{
+    margin-top: -30px;
+  }
+  .image-container img{
+    margin-left: 52%;
+    width: 362px;
+    margin-top: -64%;
+  }
+  .first-div{
+    margin-left: 117px;
+  }
+  .carousel-inner{
+    width: 106%;
   }
 }
